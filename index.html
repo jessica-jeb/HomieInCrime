@@ -14,7 +14,7 @@
         "pngs pngs pngs";
 
         grid-template-columns: 1fr 2fr 1fr;
-        gap: 3px;
+        gap: 20px;
 
         padding: 3px;
 
@@ -24,11 +24,13 @@
             text-align: center;
             grid-area:header;
             border-width: 5px;
-            border-color: black;
+            border-color: #fcf7c5;
+            text-align: center;
+            gap: 15px;
             border-style: double;
             border-radius: 10px;
             display:block;
-            background-image: url("pls.jpg");
+            background-color: rgba(235, 137, 91, 0.336);
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -38,22 +40,32 @@
             grid-area:blinkies;
             border-radius: 10px;
             border-width: 5px;
-            border-color: black;
+            border-color: #fcf7c5;
             border-style: double;
             display:block;
+            background-color: rgba(235, 137, 91, 0.336);
             background-image: url("pls.jpg");
             background-repeat: no-repeat;
-            background-size: cover;
+            padding-inline: 15px;
+            
+            
         }
 
         article {
             grid-area:article;
             border-radius: 10px;
             border-width: 5px;
-            border-color: black;
+            border-color: #fcf7c5;
             border-style: double;
-            background-image: url("pls.jpg");
+            /*background-image: url("pls.jpg"); */
+            background-color: rgba(235, 137, 91, 0.336);
             background-repeat: no-repeat;
+            padding-inline: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            
+            
             
         }
 
@@ -73,7 +85,7 @@
             grid-area:nav;
             border-radius: 10px;
             border-width: 5px;
-            border-color: black;
+             border-color: #fcf7c5;
             border-style: double;
            background-image: url("pls.jpg");
             background-repeat: no-repeat;
@@ -85,7 +97,7 @@
             grid-area:sidebar;
             border-radius: 10px;
             border-width: 5px;
-            border-color: black;
+             border-color: #fcf7c5;
             border-style: double;
             background-image: url("pls.jpg");
             background-repeat: no-repeat;
@@ -97,7 +109,7 @@
             grid-area:pngs;
             border-radius: 10px;
             border-width: 5px;
-            border-color: black;
+            border-color: #fcf7c5;
             border-style: double;
             background-image: url("pls.jpg");
             background-repeat: no-repeat;
@@ -105,11 +117,50 @@
         }
 
         p {
-            background-color: antiquewhite;
-            border-radius: 10px;
-            border-style: groove;
-            padding: 5px;
+            color:#fcf7c5;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            text-align: center;
         }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+            
+        }
+
+        h1 {
+            color:#fcf7c5;
+        }
+
+        a {
+            background-color: #fcf7c5;
+            border-radius: 5px;
+            border-style: groove;
+            display:flex;
+            justify-content: center; /* Centers text horizontally */
+  align-items: center;   
+            padding: 3px;
+            text-align: center;
+            width: auto;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        a:link {
+            color:brown;
+        }
+
+        a:visited {
+            color:brown;
+        }
+
+        a:hover {
+            color:black;
+        }
+
+        
 
     
 </style>
@@ -119,7 +170,11 @@
 <body>
     <div class = container>
         <header>
-            <h1>UNCC</h1>
+           
+  <img src="heart.png"><img src="heart.png">       
+  <h1>UNCC</h1>
+  <img src="heart.png"><img src="heart.png">
+
         </header>
 
         <div class = blinkies>
@@ -127,14 +182,18 @@
         </div>
 
         <article>
+        <img src = "divider.png">
         <p>AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH<br>You're a legal adult!! YIPEEE. I CAN"T BELIVE ITS BEEN SO LONG. UR SO OLDDDDDDD. UR LIKE A FOSSIL. ANYWAYS. UR ONE OF MY BEST FRIENDS AND IM GLAD I HAVE SOMEONE I CAN TRUST SO MUCHHH. HAPPY BIRTHDAY AND ENJOY THIS ACCUMULATION OF LITERALLY EVERYTHING!
         
         ps: Also I'll put a guide in here on how to change things and upload blogs so it's like ur own personal website :D - Feel free to change this note later to an actual intro</p>
+
+        <img src = "divider.png">
         </article>
 
 
         
         <nav>
+            <img src = "dancingcat.webp">
             <a button href="Crochet.html">Crochet!</a><br>
             <a button href="Books.html">Books</a><br>
             <a button href="Movies.html">Movies and Series</a><br>
@@ -143,10 +202,11 @@
             <a button href="Blog.html">Blog</a><br>
             <a button href="Devlog.html">Devlog</a><br>
             <a button href="instructionmanuel.html">Instruction Manual</a><br>
+            <img src = "dancingcat.webp">
         </nav>
 
         <div class = sidebar>
-           <p>he</p>
+           <img src="cat.webp">
         </div>
         <div class = pngs>
             <p>he</p>
